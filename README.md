@@ -50,7 +50,7 @@ Since I am optimizing for high performance with a low-spec local system, my enti
 ```text
 ├── Phase-1-Documentation/
 │   ├── Master_Readme_Portfolio.md    # Hands-on Markdown & LaTeX compilation
-│   └── Lab_Report_Template.ipynb     # Standardized college laboratory blueprint
+│   └── FirstNotebook.ipynb           # My first Google Colab cloud notebook
 ├── Phase-2-API-Parsing/              # Upcoming API fetch scripts
 ├── Phase-3-Automation/               # Functional cloud automation pipelines
 └── README.md                         # This file
