@@ -53,4 +53,6 @@ Since I am optimizing for high performance with a low-spec local system, my enti
 │   └── FirstNotebook.ipynb           # My first Google Colab cloud notebook
 ├── Phase-2-API-Parsing/              # Upcoming API fetch scripts
 ├── Phase-3-Automation/               # Functional cloud automation pipelines
+├──brainstorming/                    # Raw project concepts, blueprints, and architecture logs
 └── README.md                         # This file
+
