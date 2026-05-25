@@ -1,8 +1,8 @@
-# 🚀 Pre-College Engineering Blitz (May - August 2026)
+# 🚀 precollege-blitz (May - August 2026)
 
-Welcome to my pre-college launchpad repository. This space serves as a central hub for all my technical explorations, cloud automation scripts, and foundational infrastructure skills built before my undergraduate classes commence in late July/August.
+Welcome to my pre-college launchpad repository. This space serves as a central hub for all my technical explorations, cloud automation scripts, and foundational infrastructure skills built before my undergraduate engineering classes commence.
 
-The primary objective of this phase is to establish a **high-leverage technical baseline** that eliminates friction during my engineering coursework and places me in the top tier of my peer group from Day 1.
+The primary objective of this sprint is to establish a **high-leverage technical baseline** that eliminates friction during my coursework and places me in the top tier of developers from Day 1.
 
 ---
 
@@ -12,13 +12,13 @@ Since I am optimizing for high performance with a low-spec local system, my enti
 
 * **Primary IDE:** [Google Colab](https://colab.research.google.com/) & [Replit](https://replit.com/) (Zero local system overhead)
 * **Documentation Format:** Academic/Industry standard Markdown (`.md`) & $\LaTeX$ for complex technical logs.
-* **Version Control:** Git via Terminal interfaces for repository management.
+* **Version Control:** Git via web and terminal interfaces for repository management.
 
 ---
 
 ## 🗺️ Roadmap & Milestones
 
-### 📍 Phase 1: Cloud UI Navigation & Document Architecture (Done)
+### 📍 Phase 1: Cloud UI Navigation & Document Architecture (In Progress)
 * **Objective:** Master Google Colab's notebook infrastructure and document formatting to create professional lab reports and research notes.
 * **Core Skills:** * Markdown syntax execution (Hierarchies, tables, inline/block code formatting).
     * $\LaTeX$ mathematical typesetting for formulas and engineering expressions ($f(x) = x^2 + 2x + 1$).
