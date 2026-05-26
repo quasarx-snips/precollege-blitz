@@ -27,3 +27,6 @@ graph TD
     I -- No --> Q[directory name = pw, time.time]
     Q --> R[Open File in wb Mode & pickle.dump]
     R --> S[Print: User Created]
+```
+Flowchart for Login Page. 
+Made using mermaid.js
