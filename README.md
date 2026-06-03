@@ -43,7 +43,7 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 * **Trojan/Leak Models:** Simulating hardware-level vulnerabilities like timing leaks.
 
 ### 3. Aerospace & Edge AI (The Specialization)
-* **Avionics IDS:** My main focus—building a system to catch anomalies in ARINC 429 data buses. If you’re into aerospace security, this is where the action is.
+* **Avionics IDS:** My main focus—building a system to catch anomalies in ARINC 429 data buses. If you’re into aerospace security, this is where the action is. For visiting my research on ARINC 429, kindly [visit the repository](https://github.com/quasarx-snips/Project-ARINC-429-IDS/)
 
 ### 4. Automation (The "Set-it-and-forget-it")
 * **API Ingestion:** Fetching live vulnerability feeds and telemetry.
