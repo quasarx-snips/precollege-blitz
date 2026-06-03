@@ -56,53 +56,53 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 precollege-blitz/
 ├── .github/
 │   └── workflows/
-│       └── autograding.yml
+│       └── autograding.yml # (June 3)
 ├── Core-Technical-Projects/
 │   ├── 01-Level-1-Foundations/
 │   │   ├── tiny_ml_math/
-│   │   │   ├── main.py
-│   │   │   ├── complex_ml.py
-│   │   │   └── sigmoid_classifier.py
+│   │   │   ├── main.py # (June 4)
+│   │   │   ├── complex_ml.py # (June 5)
+│   │   │   └── sigmoid_classifier.py # (June 4)
 │   │   └── aes_visualizer/
-│   │       ├── main.py
-│   │       └── block_cipher.py
+│   │       ├── main.py # (June 6)
+│   │       └── block_cipher.py # (June 3)
 │   ├── 02-Level-2-Simulations/
 │   │   ├── cpu_emulator/
-│   │   │   ├── main.py
-│   │   │   ├── opcodes.py
-│   │   │   └── test_programs.asm
+│   │   │   ├── main.py # (June 12)
+│   │   │   ├── opcodes.py # (June 11)
+│   │   │   └── test_programs.asm # (June 13)
 │   │   └── side_channel_trojan/
-│   │       ├── leak_simulator.py
-│   │       └── trace_analyzer.py
-├── 03-Level-3-Edge-AI/
-│   ├── network_anomaly_detector/    
-│   │   ├── packet_sniffer.py
-│   │   ├── model_trainer.py
-│   │   └── live_defense_sh.sh
-│   └── crypto_anomaly_detector/    
-│       ├── stream_monitor.py
-│       ├── model_trainer.py
-│       └── defense_trigger.sh
+│   │       ├── leak_simulator.py # (June 16)
+│   │       └── trace_analyzer.py # (June 17)
+│   └── 03-Level-3-Edge-AI/
+│       ├── network_anomaly_detector/
+│       │   ├── packet_sniffer.py # (June 20)
+│       │   ├── model_trainer.py # (June 21)
+│       │   └── live_defense_sh.sh # (June 22)
+│       └── crypto_anomaly_detector/
+│           ├── stream_monitor.py # (June 23)
+│           ├── model_trainer.py # (June 24)
+│           └── defense_trigger.sh # (June 25)
 ├── Phase-1-Documentation/
-│   ├── Master_Readme_Portfolio.md
-│   ├── FirstNotebook.ipynb
-│   ├── Silicon-Foundations.md
-│   └── Cyber-Forensics-Theory.md
+│   ├── Master_Readme_Portfolio.md # (June 27)
+│   ├── FirstNotebook.ipynb # (June 5)
+│   ├── Silicon-Foundations.md # (June 14)
+│   └── Cyber-Forensics-Theory.md # (June 18)
 ├── Phase-2-API-Parsing/
-│   ├── vuln_feed_fetcher.py
-│   ├── log_payload_parser.py
-│   ├── Shodan-Threat-Ingestor.py
-│   └── Silicon-Telemetry-Parser.py
+│   ├── vuln_feed_fetcher.py # (June 28)
+│   ├── log_payload_parser.py # (June 28)
+│   ├── Shodan-Threat-Ingestor.py # (June 29)
+│   └── Silicon-Telemetry-Parser.py # (June 29)
 ├── Phase-3-Automation/
-│   ├── cron_security_auditor.py
-│   ├── incident_webhook_dispatcher.py
-│   ├── Live-Blacklist-Sync.py
-│   └── Automated-Report-Generator.py
+│   ├── cron_security_auditor.py # (June 26)
+│   ├── incident_webhook_dispatcher.py # (June 26)
+│   ├── Live-Blacklist-Sync.py # (June 27)
+│   └── Automated-Report-Generator.py # (June 27)
 ├── brainstorming/
-│   ├── Base-X_Two-Way_Conversion_Engine/
-│   ├── login_page/
-│   ├── hardware_trojan_blueprint.txt
-│   ├── edge_ai_pipeline_sketch.md
-│   ├── rru_lab_leverage_strategy.txt
-│   └── custom_instruction_sets.json
-└── README.md
+│   ├── Base-X_Two-Way_Conversion_Engine/ # (June 30)
+│   ├── login_page/ # (June 30)
+│   ├── hardware_trojan_blueprint.txt # (June 15)
+│   ├── edge_ai_pipeline_sketch.md # (June 22)
+│   ├── rru_lab_leverage_strategy.txt # (June 30)
+│   └── custom_instruction_sets.json # (June 12)
+└── README.md # (June 3)
