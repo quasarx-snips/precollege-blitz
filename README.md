@@ -1,3 +1,17 @@
+![Project](https://img.shields.io/badge/Project-precollege--blitz-blue)
+![Language](https://img.shields.io/badge/Language-Python-yellow)
+![Arch](https://img.shields.io/badge/Arch-Systems--Engineering-red)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Cryptography-000000?style=for-the-badge&logo=gnupg&logoColor=white">
+  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+  <img src="https://img.shields.io/badge/CLI-Terminal_Tools-blue?style=for-the-badge&logo=gnu">
+  <img src="https://img.shields.io/badge/And_More-...-gray?style=for-the-badge">
+</p>
+
+
 # 🚀 precollege-blitz 
 
 Welcome to my engineering launchpad. I’m Bibhab, and this repo is where I build, break, and document stuff before I officially start my undergraduate journey. 
@@ -60,11 +74,15 @@ precollege-blitz/
 │   │   └── side_channel_trojan/
 │   │       ├── leak_simulator.py
 │   │       └── trace_analyzer.py
-│   └── 03-Level-3-Edge-AI/
-│       └── network_anomaly_detector/
-│           ├── packet_sniffer.py
-│           ├── model_trainer.py
-│           └── live_defense_sh.sh
+├── 03-Level-3-Edge-AI/
+│   ├── network_anomaly_detector/    
+│   │   ├── packet_sniffer.py
+│   │   ├── model_trainer.py
+│   │   └── live_defense_sh.sh
+│   └── crypto_anomaly_detector/    
+│       ├── stream_monitor.py
+│       ├── model_trainer.py
+│       └── defense_trigger.sh
 ├── Phase-1-Documentation/
 │   ├── Master_Readme_Portfolio.md
 │   ├── FirstNotebook.ipynb
