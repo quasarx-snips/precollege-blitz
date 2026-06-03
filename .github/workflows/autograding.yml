@@ -1,0 +1,17 @@
+name: CI Check
+
+on: [push] # Jab bhi tum code push karoge, yeh trigger hoga
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Run Tests
+        run: |
+          # Yahan tum apne projects ki command likh sakte ho
+          python Core-Technical-Projects/01-Level-1-Foundations/aes_visualizer/main.py
