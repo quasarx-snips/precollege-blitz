@@ -10,7 +10,8 @@ def encrypt_message(plaintext):
     encrypted_stream = []
     for char in full_payload:
         encrypted_stream.append(char)
-        encrypted_stream.append(random.choice(string.ascii_lowercase))
+        if random.choice([True,False]):
+            encrypted_stream.append(random.choice(string.ascii_lowercase))
 
     return "".join(encrypted_stream)
 
