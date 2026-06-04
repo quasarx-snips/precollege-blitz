@@ -12,7 +12,7 @@
 </p>
 
 
-# 🚀 precollege-blitz 
+#  precollege-blitz 
 
 Welcome to my engineering launchpad. I’m Bibhab, and this repo is where I build, break, and document stuff before I officially start my undergraduate journey. 
 
@@ -20,7 +20,7 @@ Instead of just learning theory, I’m focused on **Building in Public**—getti
 
 ---
 
-## 🛠️ The Mindset & Stack
+##  The Mindset & Stack
 I don't believe in "black-box" libraries where you just import everything. I want to understand the **why** and **how** at the silicon/logic level.
 
 * **Systems Focus:** Avionics (ARINC 429), VLSI logic, and Hardware Architecture.
@@ -30,7 +30,7 @@ I don't believe in "black-box" libraries where you just import everything. I wan
 
 ---
 
-## 🗺️ What’s Happening?
+##  What’s Happening?
 
 I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 
@@ -51,7 +51,7 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 
 ---
 
-## 📂 Project Tree
+##  Project Tree
 ```text
 precollege-blitz/
 ├── .github/
@@ -106,3 +106,11 @@ precollege-blitz/
 │   ├── rru_lab_leverage_strategy.txt # (June 30)
 │   └── custom_instruction_sets.json # (June 12)
 └── README.md # (June 3)
+```
+___
+
+## Engineering Notes & Acknowledgments
+
+The Precollege Blitz is a research-driven initiative focused on building secure-by-design systems. This project was written and pushed to github mostly in replit environment. While this project is authored and architected by Bibhab Saha, I utilize AI-assisted development tools to accelerate the build-loop, manage boilerplate, and expedite test-suite scaffolding.
+
+The core logic, cryptographic security design, modular architecture, and system integration remain fully hand-authored and verified to ensure project integrity and deep technical understanding.
