@@ -13,10 +13,11 @@ testing_data = raw_data[800:]
 
 #Parameters
 weights = [0.5 for _ in range(5)]
-step = 0.00001
-epochs = 5000
+step = 0.0000001
+epochs = 900
 threshold = 500 
 error_list = []
+weight_history = []
 
 #Training Loop
 for i in range(epochs):
@@ -31,6 +32,7 @@ for i in range(epochs):
             weights[j] += error * x[j] * current_step
 
     error_list.append(total_error)
+    weight_history.append(list(weights))
 
 #Evaluation
 TP, FP, TN, FN = 0, 0, 0, 0
@@ -57,3 +59,15 @@ plt.text(0.5, 0.5, stats_text, transform=plt.gca().transAxes,
 
 plt.savefig("loss_curve_neural_model.png")
 print("Loss curve saved as 'loss_curve_neural_model.png'. Weights converged to:", formatted_weights)
+plt.figure(figsize=(10, 6))
+# Transpose weight_history to get a list of values per weight over time
+for j in range(5):
+    plt.plot([w[j] for w in weight_history], label=f'Weight {j+1}')
+
+plt.title("Weight Adjustment Over Time")
+plt.xlabel("Epochs")
+plt.ylabel("Weight Value")
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.savefig("weight_convergence.png")
+print("Weight convergence plot saved as 'weight_convergence.png'.")
