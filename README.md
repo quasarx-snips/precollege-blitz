@@ -48,6 +48,8 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 ### 4. Automation (The "Set-it-and-forget-it")
 * **API Ingestion:** Fetching live vulnerability feeds and telemetry.
 * **Security Auditor:** Automated scripts that ping me if my mock infrastructure has a "breach."
+### 5. Sandbox (The Exploration)
+* A dedicated **workspace** for rapid prototyping and unscripted technical deep-dives.
 
 ---
 
@@ -56,7 +58,11 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 precollege-blitz/
 ├── .github/
 │   └── workflows/
-│       └── autograding.yml # (June 3)
+│       └── autograding.yaml # (June 30)
+├── assets/                   
+│   ├── datasets/             
+│   ├── checkpoints/          
+│   └── utils/                
 ├── Core-Technical-Projects/
 │   ├── 01-Level-1-Foundations/
 │   │   ├── tiny_ml_math/
@@ -105,6 +111,7 @@ precollege-blitz/
 │   ├── edge_ai_pipeline_sketch.md # (June 22)
 │   ├── rru_lab_leverage_strategy.txt # (June 30)
 │   └── custom_instruction_sets.json # (June 12)
+├── Sandbox/ (Gap Days)
 └── README.md # (June 3)
 ```
 ___
