@@ -1,1 +1,4 @@
-
+LOAD 10
+SUB 1
+JUMP 0
+HALT
