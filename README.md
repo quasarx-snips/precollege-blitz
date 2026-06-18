@@ -11,8 +11,7 @@
   <img src="https://img.shields.io/badge/And_More-...-gray?style=for-the-badge">
 </p>
 
-
-#  precollege-blitz 
+# 🚀 precollege-blitz 
 
 Welcome to my engineering launchpad. I’m Bibhab, and this repo is where I build, break, and document stuff before I officially start my undergraduate journey. 
 
@@ -20,17 +19,23 @@ Instead of just learning theory, I’m focused on **Building in Public**—getti
 
 ---
 
-##  The Mindset & Stack
+**Status:** ✅ **Blitz Complete.**
+
+> *"This repository is an archive of the intensive technical work I completed in the months before starting my undergraduate degree. Instead of just learning theory, I focused on building systems from scratch—ranging from a custom CPU emulator to cryptographic visualizers—to understand the 'why' and 'how' at the silicon level."*
+
+---
+
+## 🧠 The Mindset & Stack
 I don't believe in "black-box" libraries where you just import everything. I want to understand the **why** and **how** at the silicon/logic level.
 
-* **Systems Focus:** Avionics (ARINC 429), VLSI logic, and Hardware Architecture.
+* **Systems Focus:** Avionics (ARINC 429) and Hardware Architecture.
 * **Cybersecurity:** Moving from basic XOR ciphers to real-world threat detection.
 * **AI:** Implementing math engines (Gradient Descent, Sigmoid) with plain Python/NumPy, no heavy-lifting frameworks.
 * **Environment:** Everything runs on headless Linux in cloud sandboxes. I automate my testing via CI/CD pipelines because I hate manual bugs.
 
 ---
 
-##  What’s Happening?
+## 🗺️ What’s Happening?
 
 I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 
@@ -42,23 +47,19 @@ I’ve structured my work into tiers. Think of this as a roadmap for my brain:
 * **CPU Emulation:** Implementing a virtual CPU to understand how instructions actually flow through registers.
 * **Trojan/Leak Models:** Simulating hardware-level vulnerabilities like timing leaks.
 
-### 3. Aerospace & Edge AI (The Specialization)
-* **Avionics IDS:** My main focus—building a system to catch anomalies in ARINC 429 data buses. If you’re into aerospace security, this is where the action is. For visiting my research on ARINC 429, kindly [visit the repository](https://github.com/quasarx-snips/Project-ARINC-429-IDS/)
+### 3. Aerospace (The Specialization)
+* **Avionics IDS:** My main focus—building a system to catch anomalies in ARINC 429 data buses. If you’re into aerospace security, this is where the action is. For visiting my research on ARINC 429, kindly [visit the repository](https://github.com/quasarx-snips/Project-ARINC-429-IDS/).
 
-### 4. Automation (The "Set-it-and-forget-it")
-* **API Ingestion:** Fetching live vulnerability feeds and telemetry.
-* **Security Auditor:** Automated scripts that ping me if my mock infrastructure has a "breach."
-### 5. Sandbox (The Exploration)
+### 4. Sandbox (The Exploration)
 * A dedicated **workspace** for rapid prototyping and unscripted technical deep-dives.
 
 ---
-
-##  Project Tree
+## Project Tree
 ```text
 precollege-blitz/
 ├── .github/
 │   └── workflows/
-│       └── autograding.yaml # (June 30)
+│       └── autograding.yaml
 ├── assets/                   
 │   ├── datasets/             
 │   ├── checkpoints/          
@@ -66,58 +67,25 @@ precollege-blitz/
 ├── Core-Technical-Projects/
 │   ├── 01-Level-1-Foundations/
 │   │   ├── tiny_ml_math/
-│   │   │   ├── main.py # (June 4)
-│   │   │   ├── complex_ml.py # (June 5)
-│   │   │   └── sigmoid_classifier.py # (June 4)
+│   │   │   ├── main.py
+│   │   │   ├── complex_ml.py
+│   │   │   └── sigmoid_classifier.py
 │   │   └── aes_visualizer/
-│   │       ├── main.py # (June 3)
-│   │       └── block_cipher.py # (June 3) 
-│   ├── 02-Level-2-Simulations/
-│   │   ├── cpu_emulator/
-│   │   │   ├── main.py # (June 12)
-│   │   │   ├── opcodes.py # (June 11)
-│   │   │   └── test_programs.asm # (June 13)
-│   │   └── side_channel_trojan/
-│   │       ├── leak_simulator.py # (June 16)
-│   │       └── trace_analyzer.py # (June 17)
-│   └── 03-Level-3-Edge-AI/
-│       ├── network_anomaly_detector/
-│       │   ├── packet_sniffer.py # (June 20)
-│       │   ├── model_trainer.py # (June 21)
-│       │   └── live_defense_sh.sh # (June 22)
-│       └── crypto_anomaly_detector/
-│           ├── stream_monitor.py # (June 23)
-│           ├── model_trainer.py # (June 24)
-│           └── defense_trigger.sh # (June 25)
+│   │       ├── main.py
+│   │       └── block_cipher.py
+│   └── 02-Level-2-Simulations/
+│       ├── cpu_emulator/
+│       │   ├── main.py
+│       │   ├── opcodes.py
+│       │   └── test_programs.asm
+│       └── side_channel_trojan/
+│           ├── leak_simulator.py
+│           └── trace_analyzer.py
 ├── Phase-1-Documentation/
-│   ├── Master_Readme_Portfolio.md # (June 27)
-│   ├── FirstNotebook.ipynb # (June 5)
-│   ├── Silicon-Foundations.md # (June 14)
-│   └── Cyber-Forensics-Theory.md # (June 18)
-├── Phase-2-API-Parsing/
-│   ├── vuln_feed_fetcher.py # (June 28)
-│   ├── log_payload_parser.py # (June 28)
-│   ├── Shodan-Threat-Ingestor.py # (June 29)
-│   └── Silicon-Telemetry-Parser.py # (June 29)
-├── Phase-3-Automation/
-│   ├── cron_security_auditor.py # (June 26)
-│   ├── incident_webhook_dispatcher.py # (June 26)
-│   ├── Live-Blacklist-Sync.py # (June 27)
-│   └── Automated-Report-Generator.py # (June 27)
+│   ├── FirstNotebook.ipynb
+│   └── Silicon-Foundations.md
 ├── brainstorming/
-│   ├── Base-X_Two-Way_Conversion_Engine/ # (June 30)
-│   ├── login_page/ # (June 30)
-│   ├── hardware_trojan_blueprint.txt # (June 15)
-│   ├── edge_ai_pipeline_sketch.md # (June 22)
-│   ├── rru_lab_leverage_strategy.txt # (June 30)
-│   └── custom_instruction_sets.json # (June 12)
-├── Sandbox/ (Gap Days)
-└── README.md # (June 3)
-```
-___
-
-## Engineering Notes & Acknowledgments
-
-The Precollege Blitz is a research-driven initiative focused on building secure-by-design systems. This project was written and pushed to github mostly in replit environment. While this project is authored and architected by Bibhab Saha, I utilize AI-assisted development tools to accelerate the build-loop, manage boilerplate, and expedite test-suite scaffolding.
-
-The core logic, cryptographic security design, modular architecture, and system integration remain fully hand-authored and verified to ensure project integrity and deep technical understanding.
+│   ├── hardware_trojan_blueprint.txt
+│   └── custom_instruction_sets.json
+├── Sandbox/
+└── README.md
