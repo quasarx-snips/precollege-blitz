@@ -2,7 +2,7 @@ import random
 import string
 
 def encrypt_message(plaintext):
-    xor_key = random.randint(0, 100)
+    xor_key = random.randint(0, 1023)
     cipher_blocks = [str(ord(char) ^ xor_key).zfill(3) for char in plaintext]
     binary_key = bin(xor_key)[2:].zfill(10)
     full_payload = "".join(cipher_blocks) + binary_key
